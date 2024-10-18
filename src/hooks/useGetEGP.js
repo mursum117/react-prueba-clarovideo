@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { getData } from "../services/data";
+import { useState, useEffect } from 'react';
+import { getData } from '../services/getData';
 
 export function useGetEGP () {
     const [channels, setChannels] = useState('')
